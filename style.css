@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  background-color: #272b31;
+}
+
+canvas {
+  top: 0;
+  left: 0;
+  position: absolute;
+  height: 100vh;
+  width:  100vw;
+  background-color: #fff;
+  /* display: block; */
+}
+.menuButton{
+  position: relative;
+  width: 40px;
+  height: 40px;
+  
+  background-image: url('./assets//menu.png');
+  background-color: transparent;
+  left: 20px;
+  top: 20px;
+  background-size: cover;
+  border: none;
+  transition: 0.5s;
+}
+.menuButton:hover{
+ filter: invert();
+}
+.menu{
+  position: relative;
+  top: 20px;
+  left: 0;
+  width: 200px;
+  height: 500px;
+  gap: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* padding-top: 20px; */
+  border-radius: 0 20px 20px 0;
+  margin-left: -200px;
+  transition: 1s;
+}
+.menuInnerButton{
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  border-color: black;
+  font-family: cursive;
+  font-size: 20px;
+  /* top: -20px; */
+  /* font-style: bold; */
+  /* background-color: ; */
+  cursor: pointer;
+}
+.menuInnerButton:hover{
+  background-color: #272b31;
+  color: aliceblue;
+}
