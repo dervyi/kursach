@@ -43,7 +43,7 @@ canvas {
   width: 200px;
   height: 500px;
   gap: 20px;
-  background-color: white;
+  background-color: rgb(32, 65, 35);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -57,7 +57,7 @@ canvas {
   width: 150px;
   height: 40px;
   border-radius: 10px;
-  border-color: black;
+  border-color: rgb(0, 0, 0);
   font-family: cursive;
   font-size: 20px;
   /* top: -20px; */
@@ -66,6 +66,6 @@ canvas {
   cursor: pointer;
 }
 .menuInnerButton:hover{
-  background-color: #272b31;
-  color: aliceblue;
+  background-color: #1a331c;
+  color: rgb(115, 255, 139);
 }
